@@ -196,4 +196,19 @@ body {
   #mountains .take-my-money a {
     background-color: #4bd9dd; }
 
+footer {
+  border-bottom: 100px solid #9b649d;
+  padding: 3em 0; }
+  footer a {
+    display: block;
+    color: #c0c4c7;
+    margin: 0.5em 0; }
+    footer a, footer a:hover {
+      color: #c0c4c7; }
+  footer .pencil-container {
+    text-align: center; }
+    footer .pencil-container i {
+      font-size: 3em;
+      transform: rotate(-45deg); }
+
 /*# sourceMappingURL=app.css.map */

@@ -1,0 +1,30 @@
+body {
+  font-family: 'Sintony', sans-serif;
+  color: $dark-font-color;
+}
+
+.btn-solid {
+  color: $light-font-color;
+  border-radius: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1em;
+
+  &:hover {
+    color: $light-font-color;
+  }
+}
+
+.btn-outline {
+  color: $dark-font-color;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1em;
+  border: 1px solid $dark-font-color;
+
+  &:hover {
+    color: $dark-font-color;
+  }
+}

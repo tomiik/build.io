@@ -86,7 +86,7 @@ body {
     font-size: 1.2em; }
 
 #features {
-  background-color: #f4f4f1;
+  background-color: #f7f7f5;
   background-image: url("../images/cellphone.jpg");
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -107,5 +107,27 @@ body {
     color: #fff;
     border-color: #fff;
     margin-left: 1em; }
+
+#video-demo {
+  position: relative; }
+  #video-demo img {
+    width: 100%; }
+  #video-demo i {
+    position: absolute;
+    font-size: 11vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+#customization {
+  text-align: center;
+  padding: 5em 0;
+  background-color: #f7f7f5; }
+  #customization i {
+    font-size: 3em;
+    color: #6d466f; }
+  #customization a {
+    color: #6d466f;
+    font-weight: bold; }
 
 /*# sourceMappingURL=app.css.map */

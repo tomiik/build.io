@@ -1,0 +1,24 @@
+#take-look {
+  color: $light-font-color;
+  background-color: $primary-color;
+  text-align: center;
+  padding: 3em 0;
+
+  h2 {
+    text-transform: uppercase;
+  }
+
+  p {
+    margin-bottom: 2em;
+  }
+
+  a.take-my-money {
+    background-color: $secondary-color;
+  }
+
+  a.free-account {
+    color: $light-font-color;
+    border-color: $light-font-color;
+    margin-left: 1em;
+  }
+}

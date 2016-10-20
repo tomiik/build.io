@@ -1,0 +1,87 @@
+#pricing {
+  text-align: center;
+
+  h2 {
+    text-transform: uppercase;
+  }
+
+  h2, p.caption {
+    color: $primary-color;
+  }
+
+  p.caption {
+    margin-bottom: 2em;
+    font-weight: bold;
+  }
+
+  .price-option {
+    border: 1px solid $dark-font-color;
+    border-radius: 10px;
+    height: 44em;
+    position: relative;
+
+    &.preferred {
+    }
+
+    h3 {
+      background-color: $primary-color;
+      color: $light-font-color;
+      margin: 0;
+      padding: 0.6em;
+      text-transform: uppercase;
+      border-radius: 10px 10px 0 0;
+    }
+
+    p.description {
+      font-weight: bold;
+      margin: 2em 3em 1em;
+    }
+
+    p.price {
+      color: $secondary-color;
+      font-size: 2.7em;
+
+      span {
+        font-size: 0.5em;
+        color: $dark-font-color;
+        position: relative;
+        top: -0.3em;
+        font-weight: bold;
+      }
+    }
+
+    .reason {
+      border-top: 2px solid lighten($dark-font-color, 15%);
+      padding: 1em;
+      margin: 0 2em;
+      font-weight: bold;
+    }
+
+    a.signup {
+      margin: 0 2em;
+      position: absolute;
+      bottom: 2em;
+      left: 2em;
+      right: 2em;
+
+
+      &.btn-outline{
+        color: $primary-color;
+        border-color: $primary-color;
+      }
+    }
+  }
+
+  .user_count {
+    color: $primary-color;
+    margin-top: 1em;
+    font-size: 1.2em;
+
+    span {
+      font-size: 1.5em;
+      font-weight: bold;
+      position: relative;
+      top: 0.1em;
+    }
+  }
+}

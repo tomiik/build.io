@@ -142,7 +142,6 @@ body {
   #pricing .price-option {
     border: 1px solid #c0c4c7;
     border-radius: 10px;
-    height: 44em;
     position: relative; }
     #pricing .price-option h3 {
       background-color: #6d466f;
@@ -168,9 +167,14 @@ body {
       padding: 1em;
       margin: 0 2em;
       font-weight: bold; }
-    #pricing .price-option a.signup {
+    #pricing .price-option .reason-spacer {
+      border-top: 2px solid transparent;
+      padding: 1em;
       margin: 0 2em;
-      position: absolute;
+      font-weight: bold; }
+    #pricing .price-option a.signup {
+      margin: 0 2em 2em 2em;
+      top: 2em;
       bottom: 2em;
       left: 2em;
       right: 2em; }
@@ -179,7 +183,8 @@ body {
         border-color: #6d466f; }
   #pricing .user_count {
     color: #6d466f;
-    margin-top: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
     font-size: 1.2em; }
     #pricing .user_count span {
       font-size: 1.5em;

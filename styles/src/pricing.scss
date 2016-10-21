@@ -17,7 +17,6 @@
   .price-option {
     border: 1px solid $dark-font-color;
     border-radius: 10px;
-    height: 44em;
     position: relative;
 
     &.preferred {
@@ -57,9 +56,16 @@
       font-weight: bold;
     }
 
-    a.signup {
+    .reason-spacer {
+      border-top: 2px solid transparent;
+      padding: 1em;
       margin: 0 2em;
-      position: absolute;
+      font-weight: bold;
+    }
+
+    a.signup {
+      margin: 0 2em 2em 2em;
+      top: 2em;
       bottom: 2em;
       left: 2em;
       right: 2em;
@@ -74,7 +80,8 @@
 
   .user_count {
     color: $primary-color;
-    margin-top: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
     font-size: 1.2em;
 
     span {
